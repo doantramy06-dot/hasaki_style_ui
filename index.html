@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hasaki - Giao diện mẫu</title>
+<link rel="stylesheet" href="css/style.css">
+<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FCMESQD2Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6FCMESQD2Q');
+    </script>
+</head>
+<body>
+<div class="promo"><b>NOWFREE 2H</b><strong>GIAO NHANH MIỄN PHÍ 2H</strong><span>ƯU ĐÃI LÀM ĐẸP MỖI NGÀY</span></div>
+<header class="header">
+  <a class="logo" href="#"><span class="logo-mark">H</span><span>HASAKI<small>.VN<br><em>Tiết Kiệm Hơn. Mọi Lúc.</em></small></span></a>
+  <div class="search-area">
+    <div class="quick">Kem Chống Nắng　 Tẩy Trang　 Sữa Rửa Mặt　 Tẩy tế bào chết</div>
+    <form class="search" onsubmit="event.preventDefault();document.getElementById('notice').textContent='Đây là giao diện mẫu, chưa kết nối tìm kiếm.'">
+      <input placeholder="Tìm sản phẩm, thương hiệu bạn mong muốn..." aria-label="Tìm kiếm">
+      <button aria-label="Tìm kiếm">⌕</button>
+    </form>
+  </div>
+  <div class="actions"><span>♙<small>Đăng nhập /<br>Đăng ký</small></span><span>▣<small>Hệ thống<br>cửa hàng</small></span><span>♡<small>Hỗ trợ<br>khách hàng</small></span><span>🛒<i>0</i></span></div>
+</header>
+<nav class="nav"><a href="#">☰ DANH MỤC</a><a href="#">HASAKI DEALS</a><a href="#">HOT DEALS</a><a href="#">THƯƠNG HIỆU</a><a href="#">HÀNG MỚI VỀ</a><a href="#">BÁN CHẠY</a><a href="#">CLINIC & SPA</a></nav>
+<main class="page">
+  <div class="crumb">Trang chủ　›　Sức Khỏe - Làm Đẹp　›　Chăm Sóc Da Mặt　›　Tẩy Trang Mặt</div>
+  <section class="brands"><b class="cocoon">the COCOON</b><b class="bioderma">BIODERMA</b><b class="loreal">L'ORÉAL PARIS</b><b class="garnier">GARNIER</b><b class="hada">Hada Labo</b><b>JMsolution</b></section>
+  <div class="layout">
+    <aside class="sidebar">
+      <h3>LÀM SẠCH DA</h3><a class="active">Tẩy Trang Mặt</a><a>Sữa Rửa Mặt</a><a>Tẩy Tế Bào Chết Da Mặt</a><a>Toner / Nước Cân Bằng Da</a>
+      <hr><h3>KHOẢNG GIÁ</h3><div class="price-filter"><input placeholder="₫ TỪ"><span>–</span><input placeholder="₫ ĐẾN"></div><button class="apply" onclick="document.getElementById('notice').textContent='Bộ lọc giá minh họa, chưa áp dụng dữ liệu.'">Áp dụng</button>
+      <hr><h3>THƯƠNG HIỆU</h3><label><input type="checkbox"> Cocoon</label><label><input type="checkbox"> Bioderma</label><label><input type="checkbox"> L'Oréal</label><label><input type="checkbox"> Garnier</label>
+    </aside>
+   <section class="catalog">
+  <div class="heading">
+    <h1>Tẩy Trang Mặt <span>(4 sản phẩm mẫu)</span></h1>
+    <label>Sắp xếp: 
+      <select>
+        <option>Bán chạy</option>
+        <option>Mới nhất</option>
+        <option>Giá thấp đến cao</option>
+        <option>Giá cao đến thấp</option>
+      </select>
+    </label>
+  </div>
+
+  <p id="notice" class="notice"></p>
+
+  <div class="products">
+    <!-- Sản phẩm 1 -->
+    <article class="product">
+      <figure class="photo">
+        <span class="deal">DEAL HOT</span>
+        <span class="discount">-53%</span>
+        <img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=600&q=80" alt="Nước tẩy trang dịu nhẹ Cocoon">
+      </figure>
+      <div class="info">
+        <small>COCOON</small>
+        <h3><a href="#">Nước tẩy trang dịu nhẹ</a></h3>
+        <p class="prices">
+          <strong>243.000 ₫</strong>
+          <del>590.000 ₫</del>
+        </p>
+        <p class="desc">Giao nhanh 2H tùy khu vực</p>
+        <button type="button">🛒 Chọn sản phẩm</button>
+      </div>
+    </article>
+
+    <!-- Sản phẩm 2 -->
+    <article class="product">
+      <figure class="photo">
+        <span class="deal">DEAL HOT</span>
+        <span class="discount">-57%</span>
+        <img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=600&q=80" alt="Nước tẩy trang bí đao Cocoon">
+      </figure>
+      <div class="info">
+        <small>COCOON</small>
+        <h3><a href="#">Nước tẩy trang bí đao</a></h3>
+        <p class="prices">
+          <strong>229.000 ₫</strong>
+          <del>590.000 ₫</del>
+        </p>
+        <p class="desc">Ưu đãi có thể thay đổi</p>
+        <button type="button">🛒 Chọn sản phẩm</button>
+      </div>
+    </article>
+
+    <!-- Sản phẩm 3 -->
+    <article class="product">
+      <figure class="photo">
+        <span class="discount">-36%</span>
+        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80" alt="Nước tẩy trang Bioderma cho da nhạy cảm">
+      </figure>
+      <div class="info">
+        <small>BIODERMA</small>
+        <h3><a href="#">Nước tẩy trang cho da nhạy cảm</a></h3>
+        <p class="prices">
+          <strong>361.000 ₫</strong>
+          <del>560.000 ₫</del>
+        </p>
+        <p class="desc">Thông tin minh họa</p>
+        <button type="button">🛒 Chọn sản phẩm</button>
+      </div>
+    </article>
+
+    <!-- Sản phẩm 4 -->
+    <article class="product">
+      <figure class="photo">
+        <span class="discount">-45%</span>
+        <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=80" alt="Nước tẩy trang tươi mát L'Oréal">
+      </figure>
+      <div class="info">
+        <small>L'ORÉAL</small>
+        <h3><a href="#">Nước tẩy trang tươi mát</a></h3>
+        <p class="prices">
+          <strong>138.000 ₫</strong>
+          <del>249.000 ₫</del>
+        </p>
+        <p class="desc">Thông tin minh họa</p>
+        <button type="button">🛒 Chọn sản phẩm</button>
+      </div>
+    </article>
+  </div>
+</section>
+  </div>
+</main>
+
+<footer><span>◉　Thanh toán khi nhận hàng</span><span>↗　Giao nhanh miễn phí 2H*</span><span>↻　30 ngày đổi trả*</span><span>✓　Thương hiệu uy tín</span><b>HOTLINE CSKH　1800 6324</b>
+<p class="disclaimer">* Giao diện học tập lấy cảm hứng từ bố cục thương mại điện tử Hasaki. Tên, giá, nhãn giảm giá và hình ảnh chỉ mang tính minh họa, không phải dữ liệu bán hàng thực tế.</p>
+</footer>
+</body>
+</html>
