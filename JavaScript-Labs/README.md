@@ -1,4 +1,4 @@
-# JavaScript Labs – Nguyễn Nhật Phi
+# JavaScript Labs – Đoàn Trà My
 
 ## Thông tin sinh viên
 - **Họ và tên:** Đoàn Trà My
