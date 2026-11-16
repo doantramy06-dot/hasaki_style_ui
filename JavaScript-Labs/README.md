@@ -1,11 +1,11 @@
 # JavaScript Labs – Nguyễn Nhật Phi
 
 ## Thông tin sinh viên
-- **Họ và tên:** Nguyễn Nhật Phi
-- **MSSV:** 31241025042
+- **Họ và tên:** Đoàn Trà My
+- **MSSV:** 31241027531
 - **Lớp học phần:** 26C1INF50902701
 - **Học phần:** Phát triển ứng dụng TMĐT – TS. Nguyễn Mạnh Tuấn
-- **GitHub:** https://github.com/philipng09
+- **GitHub:** https://github.com/doantramy06-dot
 
 ## Mục tiêu
 Thực hành 03 bài Lab JavaScript (Lab 08, 09, 10) để xây dựng chức năng tương tác cho website: cú pháp và hàm, thao tác DOM và sự kiện, thư viện jQuery và GET Request. Các kỹ thuật này được liên hệ với website thương mại điện tử như kiểm tra biểu mẫu, giỏ hàng, lọc sản phẩm và hiệu ứng tương tác.
