@@ -1,1 +1,195 @@
-<h1>JavaScript Labs</h1>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Labs – Đoàn Trà My</title>
+  <meta name="description" content="Portfolio bài thực hành JavaScript (Lab 08–10) của Đoàn Trà My – Lớp 26C1INF50902701 – UEH.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- THANH ĐIỀU HƯỚNG -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top"><span class="brand-mark">JS</span> Trà My · JS Labs</a>
+      <button class="menu-btn" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Mở menu">☰</button>
+      <nav class="site-nav" id="site-nav" aria-label="Điều hướng chính">
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#bai-lab">Bài thực hành</a>
+        <a href="#kien-thuc">Kiến thức</a>
+        <a href="#tong-ket">Tự đánh giá</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 3.1 THÔNG TIN CÁ NHÂN -->
+    <section class="hero">
+      <div class="wrap">
+        <div class="profile-card">
+          <div class="avatar-col">
+            <div class="avatar-ring">
+              <img src="images/avatar.jpg" alt="Ảnh đại diện Đoàn Trà My">
+            </div>
+            <span class="student-badge">UEH · TMĐT</span>
+          </div>
+
+          <div class="profile-info">
+            <p class="eyebrow">Portfolio thực hành · Chuyên đề JavaScript</p>
+            <h1>Đoàn Trà My</h1>
+
+            <div class="info-pills">
+              <div class="pill"><strong>MSSV:</strong> 31241027531</div>
+              <div class="pill"><strong>Lớp học phần:</strong> 26C1INF50902701</div>
+              <div class="pill"><strong>Học phần:</strong> Phát triển ứng dụng TMĐT (TS. Nguyễn Mạnh Tuấn)</div>
+            </div>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="https://github.com/doantramy06-dot" target="_blank" rel="noopener">GitHub cá nhân</a>
+              <a class="btn btn-ghost" href="https://github.com/doantramy06-dot/hasaki_style_ui" target="_blank" rel="noopener">Repository môn học</a>
+            </div>
+
+            <div class="stats-strip" aria-label="Tổng quan kết quả">
+              <div class="stat-box">
+                <span class="stat-num" data-target="3">3</span>
+                <span class="stat-label">Bài Lab hoàn chỉnh</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" data-target="29">29</span>
+                <span class="stat-label">Exercise thực hành</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num" data-target="100">100</span>
+                <span class="stat-label">% Triển khai GitHub Pages</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.2 GIỚI THIỆU -->
+    <section class="section" id="gioi-thieu">
+      <div class="narrow">
+        <div class="section-header">
+          <span>Tổng quan chuyên đề</span>
+          <h2>Giới thiệu về bài thực hành</h2>
+        </div>
+        <div class="intro-card">
+          <p>Ở giai đoạn đầu của học phần, em đã sử dụng HTML và CSS để xây dựng bố cục giao diện tĩnh mô phỏng trang thương mại điện tử mỹ phẩm Hasaki. Chuỗi 03 bài thực hành JavaScript (Lab 08, Lab 09 và Lab 10) là bước tiếp theo giúp trang web có khả năng tương tác thực sự với người dùng thay vì chỉ hiển thị thông tin một chiều.</p>
+          <p>Thông qua các bài tập từ nền tảng ngôn ngữ, thao tác cây DOM, bắt sự kiện cho đến thư viện jQuery, em hiểu được cách trình duyệt phản hồi thao tác nhấp chuột, kiểm tra dữ liệu nhập vào biểu mẫu, tạo hiệu ứng chuyển động mượt mà và tải dữ liệu bất đồng bộ phục vụ cho các chức năng thực tế của website bán hàng trực tuyến.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.3 DANH SÁCH BÀI LAB -->
+    <section class="section" id="bai-lab">
+      <div class="wrap">
+        <div class="section-header">
+          <span>Sản phẩm thực hành</span>
+          <h2>Danh sách các bài Lab</h2>
+        </div>
+        <div class="lab-grid">
+          <article class="lab-card">
+            <span class="lab-badge">Lab 08 · 11 Exercise</span>
+            <h3>JavaScript 1: Language Foundations</h3>
+            <p>Cách nhúng JS vào HTML, khai báo biến, hàm, đối tượng String/Date/Math, mảng và gỡ lỗi trên Console.</p>
+            <p class="lab-meta">Bài 8.1 → Bài 8.11</p>
+            <a class="btn btn-primary" href="Lab08/">Xem chi tiết Lab 08</a>
+          </article>
+
+          <article class="lab-card">
+            <span class="lab-badge">Lab 09 · 8 Exercise</span>
+            <h3>JavaScript 2: DOM and Events</h3>
+            <p>Truy xuất và cập nhật phần tử HTML qua DOM, lắng nghe sự kiện chuột/bàn phím và kiểm tra biểu mẫu.</p>
+            <p class="lab-meta">Bài 9.1 → Bài 9.8</p>
+            <a class="btn btn-primary" href="Lab09/">Xem chi tiết Lab 09</a>
+          </article>
+
+          <article class="lab-card">
+            <span class="lab-badge">Lab 10 · 10 Exercise</span>
+            <h3>JavaScript 3: jQuery</h3>
+            <p>Sử dụng bộ chọn jQuery, xử lý sự kiện gọn nhẹ, tạo hiệu ứng hoạt ảnh và gửi yêu cầu GET lấy dữ liệu JSON.</p>
+            <p class="lab-meta">Bài 10.1 → Bài 10.10</p>
+            <a class="btn btn-primary" href="Lab10/">Xem chi tiết Lab 10</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.4 KIẾN THỨC ĐÃ HỌC -->
+    <section class="section" id="kien-thuc">
+      <div class="narrow">
+        <div class="section-header">
+          <span>Nội dung tiếp thu</span>
+          <h2>Kiến thức và kỹ năng đã học</h2>
+        </div>
+        <div class="tabs-wrapper">
+          <div class="tabs" role="tablist" aria-label="Kiến thức theo từng Lab">
+            <button class="tab is-active" role="tab" aria-selected="true" aria-controls="tab-08" id="t-08">Lab 08 · Nền tảng JS</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="tab-09" id="t-09" tabindex="-1">Lab 09 · DOM & Events</button>
+            <button class="tab" role="tab" aria-selected="false" aria-controls="tab-10" id="t-10" tabindex="-1">Lab 10 · jQuery</button>
+          </div>
+
+          <div class="tab-panel" id="tab-08" role="tabpanel" aria-labelledby="t-08">
+            <ul class="learn-list">
+              <li><strong>Tổ chức mã JavaScript:</strong> Nắm vững sự khác biệt giữa nhúng mã trực tiếp trong thẻ <code>&lt;script&gt;</code> và tách thành tệp <code>.js</code> độc lập, kèm thẻ dự phòng <code>&lt;noscript&gt;</code>.</li>
+              <li><strong>Cú pháp và so sánh kiểu dữ liệu:</strong> Phân biệt rõ phép so sánh giá trị <code>==</code> và so sánh nghiêm ngặt cả kiểu dữ liệu <code>===</code> khi làm việc với biến và đối tượng String.</li>
+              <li><strong>Xử lý mảng và vòng lặp:</strong> Biết cách thêm/bớt phần tử mảng bằng <code>push()</code>, <code>unshift()</code> và kết hợp vòng lặp tạo bảng dữ liệu động trên trang web.</li>
+              <li><strong>Hàm và đối tượng dữ liệu:</strong> Hiểu phạm vi biến cục bộ (<code>var</code>) so với toàn cục, cách truyền hàm như tham số và đóng gói thông tin đơn hàng bằng Constructor Function.</li>
+              <li><strong>Kiểm tra lỗi với Browser Console:</strong> Thành thạo việc mở Developer Tools (F12) để đọc thông báo lỗi cú pháp và theo dõi giá trị biến qua <code>console.log()</code>.</li>
+            </ul>
+          </div>
+
+          <div class="tab-panel" id="tab-09" role="tabpanel" aria-labelledby="t-09" hidden>
+            <ul class="learn-list">
+              <li><strong>Truy xuất phần tử cây DOM:</strong> Sử dụng linh hoạt <code>getElementById</code>, <code>getElementsByClassName</code> và <code>querySelectorAll</code> để chọn chính xác thẻ HTML cần thao tác.</li>
+              <li><strong>Cập nhật nội dung và giao diện động:</strong> Phân biệt <code>innerHTML</code> với <code>innerText</code>; tự tạo phần tử mới bằng <code>createElement</code>, <code>appendChild</code> và xóa bằng <code>removeChild</code>.</li>
+              <li><strong>Lắng nghe sự kiện người dùng:</strong> Dùng <code>addEventListener</code> xử lý thao tác <code>click</code>, <code>mouseover</code>, <code>mouseout</code> kết hợp <code>setTimeout</code> để tạo hiệu ứng ẩn hiện tự nhiên.</li>
+              <li><strong>Kiểm soát thứ tự tải trang:</strong> Đặt mã khởi tạo bên trong sự kiện <code>window.addEventListener("load", ...)</code> để tránh lỗi truy xuất khi HTML chưa tải xong.</li>
+              <li><strong>Kiểm tra dữ liệu biểu mẫu (Validation):</strong> Bắt sự kiện <code>focus</code>/<code>blur</code> đổi màu ô nhập và dùng <code>preventDefault()</code> chặn gửi form khi người dùng bỏ trống thông tin.</li>
+              <li><strong>Gỡ lỗi bằng Breakpoint:</strong> Biết cách đặt điểm dừng trong tab Sources để theo dõi từng bước chạy và thuộc tính đối tượng sự kiện <code>event.target</code>.</li>
+            </ul>
+          </div>
+
+          <div class="tab-panel" id="tab-10" role="tabpanel" aria-labelledby="t-10" hidden>
+            <ul class="learn-list">
+              <li><strong>Tích hợp thư viện jQuery:</strong> Biết cách nhúng jQuery qua CDN kèm tệp dự phòng cục bộ trong thư mục <code>js/</code> để đảm bảo trang luôn hoạt động ổn định.</li>
+              <li><strong>Bộ chọn ngắn gọn và mạnh mẽ:</strong> Dùng cú pháp <code>\$()</code> kết hợp các bộ lọc như <code>:password</code>, <code>:nth-child()</code>, <code>:contains()</code> để định dạng hàng loạt phần tử.</li>
+              <li><strong>Sự kiện và chèn phần tử DOM:</strong> Rút gọn thao tác bắt sự kiện với <code>.on()</code>, <code>.off()</code> và chèn nội dung linh hoạt qua <code>append()</code>, <code>prepend()</code>, <code>after()</code>, <code>before()</code>.</li>
+              <li><strong>Hiệu ứng và hoạt ảnh giao diện:</strong> Xây dựng hiệu ứng mờ dần (<code>fade</code>), trượt (<code>slide</code>), khung xem ảnh lớn theo con trỏ chuột và chuyển động nhiều bước bằng <code>.animate()</code>.</li>
+              <li><strong>Tải dữ liệu bất đồng bộ (AJAX):</strong> Sử dụng <code>\$.get()</code> và đối tượng <code>jqXHR</code> (<code>done</code>, <code>fail</code>, <code>always</code>) để đọc dữ liệu JSON từ máy chủ mà không tải lại trang.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.5 TỰ ĐÁNH GIÁ -->
+    <section class="section" id="tong-ket">
+      <div class="narrow">
+        <div class="section-header">
+          <span>Nhìn lại quá trình học</span>
+          <h2>Tự đánh giá sau khi hoàn thành</h2>
+        </div>
+        <div class="summary">
+          <p>Sau khi hoàn thành 03 bài thực hành Lab 08, Lab 09 và Lab 10, em đã hiểu rõ cách JavaScript giúp một trang web từ giao diện tĩnh trở nên sống động và phản hồi được với thao tác của người dùng. Ban đầu em gặp đôi chút bỡ ngỡ khi làm quen với cú pháp và cách đọc thông báo lỗi trên Browser Console, nhưng nhờ thực hành từng bước từ thao tác DOM thuần ở Lab 09 đến cú pháp ngắn gọn của jQuery ở Lab 10, em đã nắm được quy trình xử lý sự kiện và cập nhật nội dung trang linh hoạt. Những kiến thức này rất thiết thực khi áp dụng vào website thương mại điện tử như giao diện cửa hàng mỹ phẩm Hasaki em đã dựng ở bài trước: chẳng hạn dùng JavaScript kiểm tra thông tin khách nhập ở form đăng ký/đặt hàng, tự động tính tiền giỏ hàng khi thay đổi số lượng sản phẩm, làm hiệu ứng phóng to ảnh sản phẩm khi rê chuột, hoặc tải danh sách địa chỉ giao hàng bằng AJAX mà không phải tải lại trang. Thời gian tới, em sẽ luyện tập thêm để viết code gọn gàng hơn và tự tay xây dựng được nhiều tính năng tương tác hoàn chỉnh cho website.</p>
+        </div>
+        <div class="apply-grid">
+          <div class="apply"><strong>Kiểm tra biểu mẫu</strong><span>Xác thực dữ liệu đăng ký, đăng nhập và đặt hàng trước khi gửi</span></div>
+          <div class="apply"><strong>Giỏ hàng động</strong><span>Tự động cập nhật số lượng, thuế và tổng tiền theo thời gian thực</span></div>
+          <div class="apply"><strong>Hiển thị sản phẩm</strong><span>Tải danh sách địa điểm giao hàng, lọc sản phẩm không tải lại trang</span></div>
+          <div class="apply"><strong>Trải nghiệm tương tác</strong><span>Hiệu ứng phóng to ảnh mỹ phẩm, đóng mở menu và thông báo mượt mà</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year">2026</span> Đoàn Trà My · MSSV: 31241027531 · Lớp: 26C1INF50902701 · <a href="https://github.com/doantramy06-dot/hasaki_style_ui/tree/main/JavaScript-Labs" target="_blank" rel="noopener">Mã nguồn trên GitHub</a></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
