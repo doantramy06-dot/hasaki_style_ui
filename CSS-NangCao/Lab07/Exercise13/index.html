@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exercise 7.13: Setting the Viewport | Đoàn Trà My</title>
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 769px)">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="lesson-shell">
+    <header class="lesson-nav">
+      <a href="../../index.html">← Trang chủ Portfolio Lab 07</a>
+      <span>ĐOÀN TRÀ MY · MSSV 312241027531</span>
+    </header>
+    <main>
+      <div class="lesson-eyebrow">LAB 07 / EXERCISE 7.13</div>
+      <h1>Setting the Viewport</h1>
+      <p class="lesson-description">Khai báo thẻ meta viewport chuẩn và xây dựng thanh điều hướng thu gọn (Hamburger Menu) thích ứng trên màn hình di động.</p>
+      <div class="demo-board">
+        <nav class="vp-navbar">
+          <div class="vp-brand">TRÀ MY STORE</div>
+          <button type="button" class="vp-btn" aria-expanded="false" aria-controls="vp-menu" onclick="const m=document.getElementById('vp-menu'); const s=m.classList.toggle('is-open'); this.setAttribute('aria-expanded',String(s));">☰ Danh mục</button>
+          <div id="vp-menu" class="vp-menu">
+            <a href="#">Trang chủ</a>
+            <a href="#">Sản phẩm</a>
+            <a href="#">Ưu đãi</a>
+            <a href="#">Liên hệ</a>
+          </div>
+        </nav>
+        <div class="vp-panel">
+          <h3>Giao diện tối ưu đa thiết bị (Viewport)</h3>
+          <p>Trên màn hình máy tính, thanh điều hướng hiển thị dàn ngang đầy đủ. Khi thu nhỏ về viewport 390px, thanh menu chuyển thành nút bấm đóng/mở gọn gàng.</p>
+        </div>
+      </div>
+      <p class="lesson-note"><strong>Kiểm tra thực hành:</strong> Thu nhỏ trình duyệt về chiều rộng 390px và nhấn vào nút Danh mục để kiểm tra thao tác đóng/mở menu trên di động.</p>
+      <nav class="lesson-next">
+        <a href="../Exercise12/index.html">← Bài 7.12</a>
+        <a href="../Exercise14/index.html">Bài 7.14 →</a>
+      </nav>
+    </main>
+  </div>
+</body>
+</html>

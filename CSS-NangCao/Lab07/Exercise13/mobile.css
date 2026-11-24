@@ -1,0 +1,11 @@
+/* Mobile: <= 768px - Đoàn Trà My (312241027531) */
+.mq-grid { display: block; margin-top: 16px; }
+.mq-grid aside { margin-bottom: 14px; }
+.mq-grid section { grid-template-columns: 1fr 1fr; }
+.mq-card { height: 125px; }
+.mq-banner { font-size: 16px; }
+.vp-navbar { flex-wrap: wrap; }
+.vp-btn { display: block; }
+.vp-menu { display: none; flex: 0 0 100%; flex-direction: column; gap: 0; }
+.vp-menu.is-open { display: flex; }
+.vp-menu a { padding: 10px; border-top: 1px solid #fda4af; }

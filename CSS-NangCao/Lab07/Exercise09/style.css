@@ -1,0 +1,7 @@
+/* Lab 07 - Exercise 7.9 - Đoàn Trà My (312241027531) */
+.promo-banner { max-width: 640px; margin: auto; position: relative; border-radius: 24px; overflow: hidden; box-shadow: 0 22px 44px rgba(190, 24, 93, 0.16); background: #ffe4e6; }
+.promo-banner img { display: block; width: 100%; height: 340px; object-fit: cover; }
+.banner-caption { position: absolute; bottom: 22px; left: 22px; background: rgba(255, 255, 255, 0.94); padding: 16px 22px; border-radius: 16px; display: flex; flex-direction: column; gap: 4px; }
+.banner-caption strong { font-size: 22px; color: #9f1239; }
+.banner-caption span, .banner-caption small { font-size: 11.5px; letter-spacing: 1.5px; font-weight: 800; color: #be185d; }
+.badge-hot { position: absolute; top: 20px; right: 20px; padding: 9px 15px; border-radius: 30px; background: #e11d48; color: #ffffff; font-size: 12px; font-weight: 800; }

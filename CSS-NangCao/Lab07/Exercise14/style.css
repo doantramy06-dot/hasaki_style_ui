@@ -1,0 +1,9 @@
+/* Lab 07 - Exercise 7.14 - Đoàn Trà My (312241027531) */
+.tf-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; padding: 26px; }
+.tf-card { min-height: 125px; border-radius: 18px; background: #ffe4e6; color: #9f1239; border: 2px solid #fda4af; display: grid; place-items: center; font-weight: 800; box-shadow: 0 12px 24px rgba(190, 24, 93, 0.12); transition: transform 0.4s ease; }
+.tf-rotate { transform: rotate(-7deg); }
+.tf-skew { transform: skew(-8deg); }
+.tf-translate { transform: translateY(16px); }
+.tf-scale { transform: scale(1.07); }
+.tf-card:hover { transform: none; }
+@media (max-width: 600px) { .tf-grid { grid-template-columns: 1fr; gap: 20px; } }

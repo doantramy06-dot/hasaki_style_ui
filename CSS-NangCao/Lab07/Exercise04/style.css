@@ -1,0 +1,6 @@
+/* Lab 07 - Exercise 7.4 - Đoàn Trà My (312241027531) */
+.z-arena { position: relative; height: 300px; background: #fff9fb; border-radius: 18px; border: 1px solid #f3d0e0; }
+.z-card { position: absolute; border-radius: 18px; padding: 28px 32px; color: #ffffff; font-size: 18px; font-weight: 800; box-shadow: 0 14px 28px rgba(43, 25, 46, 0.18); }
+.z-c1 { background: #f43f5e; top: 28px; left: 12%; z-index: 1; }
+.z-c2 { background: #ea580c; top: 88px; left: 34%; z-index: 4; }
+.z-c3 { background: #db2777; top: 152px; left: 20%; z-index: 2; }

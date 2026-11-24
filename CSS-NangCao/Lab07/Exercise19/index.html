@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exercise 7.19: Using Bootstrap | Đoàn Trà My</title>
+  <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="lesson-shell">
+    <header class="lesson-nav">
+      <a href="../../index.html">← Trang chủ Portfolio Lab 07</a>
+      <span>ĐOÀN TRÀ MY · MSSV 312241027531</span>
+    </header>
+    <main>
+      <div class="lesson-eyebrow">LAB 07 / EXERCISE 7.19</div>
+      <h1>Using Bootstrap</h1>
+      <p class="lesson-description">Ứng dụng Bootstrap 3.4.1 để xây dựng thanh điều hướng navbar, jumbotron, hệ thống lưới 12 cột, panel và cột lồng nhau.</p>
+      <div class="demo-board">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="#">TRÀ MY STUDIO</a></div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Trang chủ</a></li>
+              <li><a href="#">Bộ sưu tập</a></li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="jumbotron">
+          <h2>Ưu đãi mùa lễ hội cùng Trà My Studio</h2>
+          <p>Trải nghiệm bố cục lưới linh hoạt 12 cột kết hợp các thành phần giao diện chuẩn của Bootstrap.</p>
+          <p><a class="btn btn-primary btn-lg" href="#bo-suu-tap">Khám phá ngay</a></p>
+        </div>
+        <div id="bo-suu-tap" class="row">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">Danh mục sản phẩm</div>
+              <div class="list-group">
+                <a href="#" class="list-group-item">Nến thơm thủ công</a>
+                <a href="#" class="list-group-item">Tinh dầu thư giãn</a>
+                <a href="#" class="list-group-item">Hộp quà tặng</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <strong>Chỉ tiêu doanh số quý</strong>
+                    <div class="progress" style="margin-top:10px"><div class="progress-bar" style="width:75%">75%</div></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <strong>Mức độ hài lòng khách hàng</strong>
+                    <div class="progress" style="margin-top:10px"><div class="progress-bar progress-bar-warning" style="width:92%">92%</div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="lesson-note"><strong>Kiểm tra thực hành:</strong> Co giãn chiều rộng trình duyệt để quan sát các cột col-sm-* tự động xếp dọc trên màn hình di động.</p>
+      <nav class="lesson-next">
+        <a href="../Exercise18/index.html">← Bài 7.18</a>
+        <a href="../Exercise01/index.html">Bài 7.1 →</a>
+      </nav>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* Desktop: >= 769px - Đoàn Trà My (312241027531) */
+.mq-grid { display: grid; grid-template-columns: 220px 1fr; gap: 20px; margin-top: 20px; }
+.mq-grid section { grid-template-columns: repeat(3, 1fr); }
+.mq-banner { letter-spacing: 2.5px; }
+.vp-menu { display: flex; }
+.vp-btn { display: none; }

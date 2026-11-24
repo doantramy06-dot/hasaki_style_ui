@@ -1,0 +1,7 @@
+/* Lab 07 - Exercise 7.10 - Đoàn Trà My (312241027531) */
+.layout-2col { background: #fff9fb; min-height: 295px; border-radius: 18px; padding: 18px; border: 1px solid #f3d0e0; }
+.layout-2col::after { content: ""; display: block; clear: both; }
+.col-sidebar { float: left; width: 30%; background: #ffe4e6; padding: 18px; border-radius: 14px; color: #881337; }
+.col-content { margin-left: 33%; background: #ffffff; min-height: 255px; padding: 20px; border-radius: 14px; border: 1px solid #fce7f3; }
+.chip-tag { display: inline-block; padding: 10px 14px; background: #fff1f2; color: #be123c; font-weight: 700; border-radius: 10px; margin: 4px 6px 8px 0; font-size: 13px; }
+@media (max-width: 560px) { .col-sidebar { float: none; width: 100%; } .col-content { margin: 14px 0 0; } }

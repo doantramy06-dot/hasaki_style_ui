@@ -1,0 +1,4 @@
+/* Lab 07 - Exercise 7.2 - Đoàn Trà My (312241027531) */
+.rel-row { display: flex; gap: 14px; min-height: 185px; align-items: flex-start; flex-wrap: wrap; padding: 20px 10px; }
+.rel-box { background: #fff1f2; border: 2px dashed #fb7185; border-radius: 14px; padding: 26px 18px; text-align: center; min-width: 155px; font-weight: 700; color: #881337; }
+.rel-shifted { position: relative; top: 26px; left: 22px; background: #fecdd3; border-style: solid; box-shadow: 0 12px 24px rgba(225, 29, 72, 0.2); }

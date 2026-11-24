@@ -1,0 +1,6 @@
+/* Lab 07 - Exercise 7.3 - Đoàn Trà My (312241027531) */
+.abs-canvas { position: relative; height: 270px; background: linear-gradient(140deg, #fff1f2, #fef3c7); border: 2px dashed #f43f5e; border-radius: 20px; }
+.canvas-title { position: absolute; top: 20px; left: 20px; font-weight: 800; color: #9f1239; }
+.abs-badge { position: absolute; padding: 13px 18px; border-radius: 14px; color: #ffffff; font-weight: 800; box-shadow: 0 10px 22px rgba(159, 18, 57, 0.22); }
+.badge-tr { top: 20px; right: 20px; background: #e11d48; }
+.badge-bl { bottom: 20px; left: 20px; background: #ea580c; }

@@ -1,0 +1,5 @@
+/* Lab 07 - Exercise 7.6 - Đoàn Trà My (312241027531) */
+.parent-box { border: 3px dashed #fb7185; border-radius: 18px; padding: 20px; background: #fff1f2; }
+.parent-box::after { content: ""; display: table; clear: both; }
+.float-thumb { float: left; width: 125px; height: 125px; margin: 0 20px 10px 0; background: #e11d48; border-radius: 18px; display: grid; place-items: center; color: #ffffff; font-weight: 800; }
+.after-note { padding: 16px 18px; border-radius: 14px; background: #fef3c7; color: #92400e; font-weight: 600; margin-top: 18px; }

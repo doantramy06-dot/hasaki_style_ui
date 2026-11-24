@@ -1,0 +1,13 @@
+/* Lab 07 - Exercise 7.19 - Đoàn Trà My (312241027531) */
+.demo-board .navbar { border-radius: 12px; overflow: hidden; border-color: #fbcfe8; }
+.demo-board .navbar-brand { font-weight: 800; color: #be185d !important; }
+.demo-board .jumbotron { background: linear-gradient(135deg, #ffe4e6, #fef3c7); border-radius: 16px; color: #881337; padding: 24px !important; }
+.demo-board .jumbotron h2 { margin-top: 4px; font-weight: 800; }
+.demo-board .panel { overflow: hidden; border-radius: 12px; }
+.demo-board .btn-primary, .demo-board .progress-bar { background: #e11d48; border-color: #e11d48; }
+.demo-board .navbar-nav { margin: 0; }
+.demo-board .navbar-nav > li { display: inline-block; }
+@media (max-width: 520px) {
+  .demo-board .navbar-nav > li { display: block; }
+  .demo-board .jumbotron h2 { font-size: 22px; }
+}

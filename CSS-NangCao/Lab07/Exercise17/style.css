@@ -1,0 +1,14 @@
+/* Lab 07 - Exercise 7.17 - Đoàn Trà My (312241027531) */
+.flt-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+.flt-card { background: #ffffff; border: 1px solid #f3d0e0; padding: 10px; border-radius: 14px; text-align: center; font-weight: 800; font-size: 13px; color: #9f1239; }
+.flt-card img { display: block; width: 100%; height: 135px; object-fit: cover; margin-bottom: 8px; border-radius: 10px; }
+.flt-none { filter: none; }
+.flt-gray { filter: grayscale(1); }
+.flt-blur { filter: blur(3px); }
+.flt-contrast { filter: contrast(1.8); }
+.flt-bright { filter: brightness(1.4); }
+.flt-sepia { filter: sepia(1); }
+.flt-hue { filter: hue-rotate(150deg); }
+.flt-invert { filter: invert(1); }
+.flt-opacity { filter: opacity(0.45); }
+@media (max-width: 660px) { .flt-grid { grid-template-columns: repeat(2, 1fr); } }
