@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App — Task Hôm Nay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="home">
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">Todo<span>App</span></div>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Hôm nay</a>
+        <a href="stats.html">Thống kê</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <div>
+        <h1>Task hôm nay</h1>
+        <p id="today-label" class="muted"></p>
+      </div>
+      <div class="actions-top">
+        <button id="btn-reset-mock" type="button" class="btn btn-outline">Nạp lại Mock Data</button>
+      </div>
+    </section>
+
+    <!-- Form Thêm / Sửa Task -->
+    <section class="card">
+      <h2 id="form-title">Thêm task mới</h2>
+      <form id="task-form" class="task-form">
+        <input type="hidden" id="task-id" />
+
+        <div class="form-group flex-2">
+          <label for="task-title">Tên task *</label>
+          <input id="task-title" type="text" placeholder="Ví dụ: Làm báo cáo môn học..." required />
+        </div>
+
+        <div class="form-group">
+          <label for="task-category">Danh mục</label>
+          <select id="task-category">
+            <option value="Học tập">Học tập</option>
+            <option value="Công việc">Công việc</option>
+            <option value="Cá nhân">Cá nhân</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="task-priority">Độ ưu tiên</label>
+          <select id="task-priority">
+            <option value="high">Cao</option>
+            <option value="medium" selected>Trung bình</option>
+            <option value="low">Thấp</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="task-date">Ngày thực hiện</label>
+          <input id="task-date" type="date" required />
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" id="btn-submit" class="btn btn-primary">Thêm task</button>
+          <button type="button" id="btn-cancel-edit" class="btn btn-ghost hidden">Hủy sửa</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Thanh Search & Filter -->
+    <section class="card toolbar">
+      <div class="search-box">
+        <input id="search-input" type="search" placeholder="Tìm kiếm task theo tên hoặc danh mục..." />
+      </div>
+
+      <div class="filters">
+        <select id="filter-status">
+          <option value="all">Trạng thái: Tất cả</option>
+          <option value="pending">Chưa hoàn thành</option>
+          <option value="completed">Đã hoàn thành</option>
+        </select>
+
+        <select id="filter-priority">
+          <option value="all">Ưu tiên: Tất cả</option>
+          <option value="high">Cao</option>
+          <option value="medium">Trung bình</option>
+          <option value="low">Thấp</option>
+        </select>
+
+        <select id="filter-category">
+          <option value="all">Danh mục: Tất cả</option>
+          <option value="Học tập">Học tập</option>
+          <option value="Công việc">Công việc</option>
+          <option value="Cá nhân">Cá nhân</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Danh sách Task -->
+    <section class="card">
+      <div class="list-header">
+        <h2>Danh sách task hôm nay (<span id="task-count">0</span>)</h2>
+      </div>
+      <ul id="task-list" class="task-list"></ul>
+      <p id="empty-state" class="empty-state hidden">Không có task nào khớp với điều kiện hiện tại.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

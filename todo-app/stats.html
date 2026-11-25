@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App — Thống kê</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="stats">
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">Todo<span>App</span></div>
+      <nav class="nav-links">
+        <a href="index.html">Hôm nay</a>
+        <a href="stats.html" class="active">Thống kê</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <div>
+        <h1>Trang thống kê</h1>
+        <p class="muted">Tổng quan hiệu suất task cá nhân &amp; dữ liệu mock 7 ngày gần nhất</p>
+      </div>
+      <div class="actions-top">
+        <button id="btn-reset-mock" type="button" class="btn btn-outline">Nạp lại Mock Data</button>
+      </div>
+    </section>
+
+    <!-- Thẻ KPI tổng quan -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <span class="kpi-label">Tổng task hôm nay</span>
+        <strong id="kpi-today-total" class="kpi-value">0</strong>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Hoàn thành hôm nay</span>
+        <strong id="kpi-today-done" class="kpi-value">0</strong>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Tỷ lệ hoàn thành</span>
+        <strong id="kpi-rate" class="kpi-value">0%</strong>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Tổng task (Mock + Hiện tại)</span>
+        <strong id="kpi-all-total" class="kpi-value">0</strong>
+      </div>
+    </section>
+
+    <!-- Biểu đồ cột theo ngày (Mock Data) -->
+    <section class="card">
+      <h2>Thống kê hoàn thành theo ngày (Mock Data 7 ngày)</h2>
+      <div id="weekly-chart" class="bar-chart"></div>
+    </section>
+
+    <!-- Phân bổ theo danh mục -->
+    <section class="card">
+      <h2>Phân bổ task theo danh mục</h2>
+      <div id="category-breakdown" class="category-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
